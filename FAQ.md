@@ -13,6 +13,7 @@ Disclaimer: Check out [this page](https://github.com/rauenzi/BetterDiscordApp/wi
 3. Read the [#rules](https://discord.com/channels/727643522081226752/727643522085158977).
 4. Go to [#support](https://discord.com/channels/727643522081226752/727643522383085629).
 5. Ask:
+   * Specify your client and discord version.
    * Specify the theme.
    * Explain your problem clearly.
    * add a screenshot if needed.
