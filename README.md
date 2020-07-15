@@ -10,7 +10,7 @@ I hope you enjoy! :)
 <a href="https://github.com/xcruxiex/BBDThemes/fork"><img src="https://img.shields.io/github/forks/xcruxiex/BBDThemes?color=%237186ce&label=Forks" alt="fork this repo"></a>
 <a href="https://github.com/xcruxiex/BBDThemes/watchers"><img src="https://img.shields.io/github/watchers/xcruxiex/BBDThemes?color=7488cd&label=Watchers" alt="watch this repo"></a>
 
-<a href="https://discord.bio/p/cruxiex">Discord.bio</a>
+<a href="https://discord.bio/p/r">Discord.bio</a>
 
 <!-- {{ string_with_newlines | newline_to_br }} -->
 
