@@ -345,12 +345,12 @@ padding-right: 0px;
 }
 
 .wrapper-3WhCwL {
-	background-color: var(--primaryT)!important;
-	color: var(--primary)!important
+	background-color: var(--pingbackground)!important;
+	color: var(--pingcolor)!important
 }
 
 .wrapper-3WhCwL:hover {
-	background-color: #e9ca0073!important
+	background-color: var(--pingbackgroundhover)!important
 }
 
 #bd-pub-button {
