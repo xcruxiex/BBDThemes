@@ -1,13 +1,17 @@
 :root {
-	--backgroundDark: rgb(24, 28, 37);
-	--backgroundDarker: rgb(20, 23, 31);
-	--primary: #008ae6;
-	--primaryGradient1: var(--primary);
-	--primaryGradient2: #00e68a;
-	--DangerColor: #dc3545;
-	--WarningColor: #ffc107;
-	--SuccesColor: #28a745;
-	--rs-small-spacing: 2px;
+  --backgroundDark: rgb(24, 28, 37);
+  --backgroundDarker: rgb(20, 23, 31);
+  --primary: #008ae6;
+  --primaryGradient1: var(--primary);
+  --primaryGradient2: #00e68a;
+  --DangerColor: #dc3545;
+  --WarningColor: #ffc107;
+  --SuccesColor: #28a745;
+  --backgroundCode: rgba(0,0,0,.35);
+  --backgroundName: rgba(0,0,0,.2);
+  
+  /* Radial Status */
+  --rs-small-spacing: 2px;
   --rs-large-spacing: 3px;
   --rs-width: 2px;
   --rs-avatar-shape: 50%;
@@ -17,9 +21,6 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
-
-	--backgroundCode: rgba(0,0,0,.35);
-	--backgroundName: rgba(0,0,0,.2);
 }
 
 
