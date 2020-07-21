@@ -14,23 +14,23 @@ You are allowed to edit the theme for personal use only.
 If you enjoy using the theme, help spread the word!
 This theme is meant to be used with the dark version of discord
 /*#################################################################################################*/
-@import url("https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css");
-@import url(https://codedotspectra.github.io/themes/core/hljs.css);
-@import url(https://codedotspectra.github.io/themes/core/settings-icons.css);
-@import url(https://xcruxiex.github.io/BBDThemes/Fixes/NocturnalFixes.css);
-@import url(https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css);
+@import url('https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css');
+@import url('https://codedotspectra.github.io/themes/core/hljs.css');
+@import url('https://codedotspectra.github.io/themes/core/settings-icons.css');
+@import url('https://xcruxiex.github.io/BBDThemes/Fixes/NocturnalFixes.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
 /*#################################################################################################*/
 :root {
-	--backgroundDark: rgb(24, 28, 37);
-	--backgroundDarker: rgb(20, 23, 31);
-	--primary: #008ae6;
-	--primaryGradient1: var(--primary);
-	--primaryGradient2: #00e68a;
-	--DangerColor: #dc3545;
-	--WarningColor: #ffc107;
-	--SuccesColor: #28a745;
-	--backgroundCode: rgba(0,0,0,.35);
-	--backgroundName: rgba(0,0,0,.2);
+  --backgroundDark: rgb(24, 28, 37);
+  --backgroundDarker: rgb(20, 23, 31);
+  --primary: #008ae6;
+  --primaryGradient1: var(--primary);
+  --primaryGradient2: #00e68a;
+  --DangerColor: #dc3545;
+  --WarningColor: #ffc107;
+  --SuccesColor: #28a745;
+  --backgroundCode: rgba(0,0,0,.35);
+  --backgroundName: rgba(0,0,0,.2);
   
   /* Radial Status */
   --rs-small-spacing: 2px;
