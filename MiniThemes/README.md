@@ -13,7 +13,7 @@ Download: [HERE](https://xcruxiex.github.io/BBDThemes/MiniThemes/StatusRight.the
 
 ![StatusRight Demo](https://i.imgur.com/6ys8086.png)
 
- ## CompactMemberList
+## CompactMemberList
 Smaller member list for those who like the compact look or need the space! 
 
 Download: [HERE](https://xcruxiex.github.io/BBDThemes/MiniThemes/CompactMemberList.theme.css) 
