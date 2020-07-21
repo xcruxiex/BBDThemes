@@ -27,7 +27,7 @@ Download: [HERE](https://xcruxiex.github.io/BBDThemes/MiniThemes/MergeTitleBar.t
 
 ![MergeTitleBar Demo](https://i.imgur.com/3ImR4sv.png)
 
- ## LargeProfilePicture
+## LargeProfilePicture
 A larger profile picture for those who have no eyes!
 
 Download: [HERE](https://xcruxiex.github.io/BBDThemes/MiniThemes/LargeProfilePicture.theme.css) 
