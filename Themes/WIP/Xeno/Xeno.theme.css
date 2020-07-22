@@ -1,4 +1,4 @@
-//META{"name":"Xeno","description":"A minimalistic theme with nice gradients & a background image feature.","author":"cruxie","version":"AutoUpdate","source":","website": "https://github.com/xcruxiex/BBDThemes", "source":"https://xcruxiex.github.io/BBDThemes/Themes/WIP/Xeno/Base.css"}*//{}
+//META{"name":"Xeno","description":"A minimalistic theme with nice gradients & a background image feature.","author":"cruxie","version":"AutoUpdate","website": "https://github.com/xcruxiex/BBDThemes", "source":"https://xcruxiex.github.io/BBDThemes/Themes/WIP/Xeno/Base.css"}*//{}
 /*
 ██╗  ██╗███████╗███╗   ██╗ ██████╗
 ╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
@@ -38,7 +38,7 @@ If you enjoy using the theme, help spread the word!
   /* Text Colors */
   --textNormal: #dcddde;
   --textMuted: #72767d;
-  --textLinks: Orange;
+  --textLinks: #FFA500;
   --channelsDefault: #e4e4e4;
   --channelsNormal: #d6d6d6;
   --channelsHover: #ebebeb;
