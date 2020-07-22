@@ -432,7 +432,7 @@ svg[name="Nova_Discord"] {display: none!important;}
   color: #fff!important;
   background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2))!important;
   border-radius: 50px!important;
-  padding: 1px 8px;
+  padding: 1px 8px !important;
   box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.35);
   transition: all .2s ease;
 }
