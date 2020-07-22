@@ -545,7 +545,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 .wrapper-1ucjTd:hover .content-3at_AU,
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-  background-color: transparent;
+  background-color: var(--backgroundColor);
   padding: 0 8px 0 16px;
 }
 .clickable-2ap7je .header-2o-2hj:hover,
