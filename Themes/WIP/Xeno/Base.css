@@ -233,7 +233,7 @@ svg[name="Nova_Discord"] {display: none!important;}
   background: transparent;
 }
 #bd-settings-sidebar .ui-tab-bar-header, .side-8zPYf6 .header-2RyJ0Y,.sidebarHeader-UbSI9z{
-  display: inline-block;
+  display: flex;
   background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
