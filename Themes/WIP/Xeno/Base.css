@@ -1250,7 +1250,7 @@ svg[aria-label="Verified"] path {
 .embedFull-2tM8-- {overflow: hidden;}
 .markup-2BOw-j code, .markup-2BOw-j code.inline {background-color: rgba(1,1,1,0.4) !important;}
 .wrapper-2aW0bm {
-    background-color: var(--backgroundDark);
+    background-color: var(--backgroundColor);
     border: none;
     box-shadow: 0 0 5px 1.5px rgba(0,0,0,.75);}
 .wrapper-2aW0bm:hover {box-shadow: 0 0 5px 1.87px rgba(0,0,0,.75);}
