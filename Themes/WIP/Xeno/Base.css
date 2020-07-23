@@ -525,7 +525,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 .content-3at_AU:after {
   content: "";
   position: absolute;
-  left: 0;
+  left: -8px;
   top: .5px;
   height: 98%;
   width: 4px;
