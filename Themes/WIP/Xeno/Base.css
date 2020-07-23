@@ -1634,3 +1634,13 @@ svg[aria-label="Verified"] path {
 .footer-1kmXd4 {
 	background-color: var(--backgroundColor);
 }
+
+.contentWrapper-SvZHNd,
+.categoryItemDefaultCategorySelected-_HCKoz, 
+.categoryItemDefaultCategorySelected-_HCKoz:hover {
+	background-color: var(--backgroundColor);
+}
+
+.navButtonActive-1MkytQ {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
