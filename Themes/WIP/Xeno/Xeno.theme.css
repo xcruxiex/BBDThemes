@@ -16,7 +16,15 @@ You are only allowed to edit the theme for personal use only.
 If you enjoy using the theme, help spread the word!
 */
 /*###################################################################################################*/
+/* Main Import */
 @import url("https://xcruxiex.github.io/BBDThemes/Themes/WIP/Xeno/Base.css");
+/* MiniThemes */
+@import url('https://xcruxiex.github.io/BBDThemes/MiniThemes/CodeBlocks.theme.css');
+/* Addons */
+@import url('https://xcruxiex.github.io/BBDThemes/Aesthetics/UserBackgrounds/Main.css');
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url('https://codedotspectra.github.io/themes/core/badges.css');
+/* Font */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 /*###################################################################################################*/
 
@@ -25,11 +33,11 @@ If you enjoy using the theme, help spread the word!
   --backgroundColor: #121212;
 
   /* Background image */
-  --backgroundImage: url('https://i.imgur.com/CARvdZU.jpg');
-  --backgroundImageOpacity: .75;
+  --backgroundImage: url('https://i.imgur.com/ZoWEHGm.jpg');
+  --backgroundImageOpacity: 0.75;
 
   /* Home button image */
-  --homeButtonImage: url('https://i.imgur.com/CARvdZU.jpg');
+  --homeButtonImage: url('https://i.imgur.com/ZoWEHGm.jpg');
 
   /* Theme Colors */
   --uiGradient1: #f4690d;
