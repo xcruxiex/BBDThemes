@@ -1098,8 +1098,6 @@ svg[aria-label="Verified"] path {
   background-color: var(--uiGradient1)!important;
   background-image: linear-gradient(-30deg, var(--uiGradient1), var(--uiGradient2))!important;
 }
-.lookFilled-1Gx00P.colorGreen-29iAKY {background-color: var(--succes)!important;}
-.lookOutlined-3sRXeN.colorRed-1TFJan {background-color: var(--error)!important;}
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .checked-3_4uQ9[style*="rgb(67, 181, 129)"] {
   border-color: rgba(0,0,0,.15) !important;
