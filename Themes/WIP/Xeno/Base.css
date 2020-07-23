@@ -232,7 +232,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 .uploadModal-2ifh8j .footer-3mqk7D {
   background: transparent;
 }
-#bd-settings-sidebar .ui-tab-bar-header{
+#bd-settings-sidebar .ui-tab-bar-header, .side-8zPYf6 .header-2RyJ0Y,.sidebarHeader-UbSI9z{
   display: inline-block;
   background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
   -webkit-background-clip: text;
