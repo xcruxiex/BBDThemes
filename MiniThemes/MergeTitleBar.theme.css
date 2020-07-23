@@ -32,4 +32,10 @@
 .platform-win  #app-mount.bd-detached-editor .winButton-iRh8-Z {
     right: 30%;
 }
-.winButton-iRh8-Z svg{top: 10px;}
+.winButton-iRh8-Z svg {
+    top: 10px;
+}
+
+.notice-2FJMB4 {
+    z-index: 10000;
+}
