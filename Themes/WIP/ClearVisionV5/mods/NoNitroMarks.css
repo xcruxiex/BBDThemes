@@ -1,8 +1,0 @@
-/* "No Nitro Marks v1.0" by Zerthox */
-/* Remove ClearVision Nitro user marks */
-
-.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
-.message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
-    display: none;
-}

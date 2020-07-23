@@ -1,4 +1,4 @@
-//META{"name":"Xeno","description":"A minimalistic theme with nice gradients & a background image feature.","author":"cruxie","version":"AutoUpdate","website": "https://github.com/xcruxiex/BBDThemes", "source":"https://xcruxiex.github.io/BBDThemes/Themes/WIP/Xeno/Base.css"}*//{}
+//META{"name":"Xeno","description":"A minimalistic theme with nice gradients & a background image feature.","author":"cruxie","version":"AutoUpdate","website": "https://github.com/xcruxiex/BBDThemes", "source":"https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Base.css"}*//{}
 /*
 ██╗  ██╗███████╗███╗   ██╗ ██████╗
 ╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
@@ -17,7 +17,7 @@ If you enjoy using the theme, help spread the word!
 */
 /*###################################################################################################*/
 /* Main Import */
-@import url("https://xcruxiex.github.io/BBDThemes/Themes/WIP/Xeno/Base.css");
+@import url("https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Base.css");
 /* MiniThemes */
 @import url('https://xcruxiex.github.io/BBDThemes/MiniThemes/CodeBlocks.theme.css');
 /* Addons */
