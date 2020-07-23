@@ -791,9 +791,6 @@ svg[name="Nova_Discord"] {display: none!important;}
   -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
 
 }
-.cardPrimaryEditable-3KtE4g[style*="rgb(67, 181, 129)"] {background-color: var(--succes)!important;}
-.cardPrimaryEditable-3KtE4g[style*="rgb(250, 166, 26)"] {background-color: var(--warning)!important;}
-.cardPrimaryEditable-3KtE4g[style*="rgb(240, 71, 71)"] {background-color: var(--error)!important;}
 #bd-settingspane-container .ui-switch-item {
   background-color: var(--backgroundColor) !important;
   box-shadow: 0 0 7px 3px rgba(0,0,0,.25);
