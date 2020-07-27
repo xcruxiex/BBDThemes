@@ -106,7 +106,7 @@
 .messages-3G3erD, .channelHeader-3Gd2xq{padding-right: 10px;padding-left: 20px;}
 .collapseButton-2ZsEjz{padding-left: 10px;}
 .messageContainer-1ei2zM:hover .jumpButton-3vBz5U{background-color: transparent;}
-.icon-1Itzco{backgroundColor: var(--backgroundColor); color: #fff;}
+.icon-1Itzco{background-color: var(--backgroundColor); color: #fff;}
 .tertiary-aMXF0g{background-color: var(--themeColor1); color: white;}
 .tertiary-aMXF0g:hover{background-color: var(--themeColor2); color: white;
 }
