@@ -27,4 +27,4 @@ A minimalistic theme with nice gradients & a background image feature.
 
 Download: [HERE](https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Xeno.theme.css)
 
-![Xeno Demo](https://i.imgur.com/d9Qc7Uf.png)
+![Xeno Demo](https://i.imgur.com/JdPpTUb.png)
