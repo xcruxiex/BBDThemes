@@ -27,7 +27,7 @@ View my Fixes: [https://xcruxiex.github.io/BBDThemes/Fixes/](https://xcruxiex.gi
 View my FAQ page [here](https://xcruxiex.github.io/BBDThemes/FAQ). This should help!
 
 # BBDThemes Wiki!
-View the BBDThemes Wiki [here](https://github.com/xcruxiex/BBDThemes.wiki)!
+View the BBDThemes Wiki [here](https://github.com/xcruxiex/BBDThemes/wiki)!
 
 # CopyRight 
 The author cruxie retains full rights of the code in this repository, unless specified otherwise.
