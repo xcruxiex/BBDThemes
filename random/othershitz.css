@@ -1,4 +1,57 @@
-/* Transparent guid icon emoji picker */
-.guildIcon-3h-1IH{background-color: transparent;}
+/* Discord Font */
+@import url(https://nfld99.github.io/aBetter-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
 
-  
+/* CUSTOM WORDMARK */
+.wordmark-2iDDfm:after {
+    content: "Powercord";
+    color: #72767d !important;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    width: 4000px;
+    top: 5px;
+    padding-left: -3px;
+    font-family: "Discord";}
+.wordmark-2iDDfm > svg{
+    width: 0px;
+}
+
+/* Spotify Coloring */
+:root {
+    --spotify-color: #dc9aa5 !important;}
+.attachButtonPlay-3iJ0mf,.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: var(--spotify-color);}
+.attachPopoutRow-3iqqu1:hover:nth-child(2),.headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P {
+    background-color: var(--spotify-color);}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background-color: white;
+    color: var(--spotify-color);}
+.listenAlongIcon-2vb1HG {
+    color: inherit;
+}
+
+/* Modern Embeds */
+.embedWrapper-lXpS3L.embedFull-2tM8--{
+    border-left: 5px solid none;
+    box-shadow: var(--elevation-high);}
+.grid-1nZz7S {
+    backdrop-filter: blur(10px) opacity(0.9);
+    border-radius: 5px;}
+.embedSuppressButton-1FonMn {
+    top: 1px;
+    right: 1px;
+}
+
+/* Transparent guid icon emoji picker */
+.guildIcon-3h-1IH{background-color: transparent;
+}
+
+/* Streaming Header Back */
+.headerStreaming-2FjmGz{
+    background: #593695;
+}
+
+/* Better Quoter Separator */
+.separator-42rNt0 {
+    display: none;
+}
