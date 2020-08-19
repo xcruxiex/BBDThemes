@@ -1,24 +1,73 @@
-/* Always Display Category Lines */
+/* Roles */
+@import url(https://xcruxiex.github.io/BBDThemes/random/roles.css);
+/* Blur Email */
+@import url(https://xcruxiex.github.io/BBDThemes/random/bluremail.css);
+/* Modern Embeds */
+@import url(https://xcruxiex.github.io/BBDThemes/random/modernembeds.css);
+
+/* Spotify Coloring */
+:root {
+    --spotify-color: #dc9aa5 !important;}
+.attachButtonPlay-3iJ0mf,.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: var(--spotify-color);}
+.attachPopoutRow-3iqqu1:hover:nth-child(2),.headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P {
+    background-color: var(--spotify-color);}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background-color: white;
+    color: var(--spotify-color);}
+.listenAlongIcon-2vb1HG {
+    color: inherit;
+}
+
+/* Always Display Category Lines 
 .name-IbjUBS:before {flex: 1 !important;}
 .name-IbjUBS:after {flex: 1 !important;}
-	
-/* Email Blur */
-.userSettingsAccount-2eMFVR .viewBody-2Qz-jg:hover {
-    filter: blur(0); }
-.userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
-    filter: blur(5px);
-	transition: 250ms filter ease-in-out;
-}
-	 
-/* Member List Category */
-.membersGroup-v9BXpm:before,.membersGroup-v9BXpm:after{display: none;}
-.members-1998pB .membersGroup-v9BXpm{text-align: left;justify-content: left;}
-
-/* Settings */
-.app-2rEoOp{background-color: rgba(0, 0, 0, 0.3);}
+*/
 
 /* No more help icon */
-.toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: block}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: block;
+}
+
+/* Streaming Header Back */
+.headerStreaming-2FjmGz{
+    background: #593695;
+}
+
+/* Better Quoter Separator PLugin */
+.separator-42rNt0 {
+    display: none;
+}
+
+/* Tabs PLugin */
+.channelTabs-tabContainer {background:rgba(0, 0, 0, calc(var(--background-shading) * .2)) !important}
+.channelTabs-selected {background: var(--main-color) !important}
+.channelTabs-tab {background:rgba(0, 0, 0, calc(var(--background-shading) * .3)) !important}
+.channelTabs-close {margin-top: -4px !important; margin-right: -2px !important; background: transparent !important}
+.channelTabs-close:hover {background: var(--main-color) !important}
+.channelTabs-newTab {background: var(--main-color) !important; display: inline-table !important}
+.channelTabs-newTab:hover {background: var(--hover-color) !important;
+}
+
+/* Dm Issue */
+.item-2hkk8m{width: 10px !important;height: 48px !important;}
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2){justify-content: left !important;}
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2)+.listItem-2P_4kh{margin-left: 0px !important;}
+.scroller-2TZvBN>.listItem-2P_4kh:nth-child(2){margin-left: 0px !important;
+}
+
+/* Powercord Conflicts */
+.powercord .hljs:before {
+  content: none !important;}
+.powercord .sidebar-CFHs9e .item-PXvHYJ {
+  padding-left: 20px !important;}
+.powercord .sidebar-CFHs9e .item-PXvHYJ:before {
+  content: none;
+}
+
+/* Duped Cv :tm: */
+.powercord .powercord-spotify > .container-3baos1:before, .powercord .powercord-spotify > .container-3baos1:after {
+  content: none;
+}
 
 /*DARK MODE Colored wumpus images */
 /* All-Online*/
@@ -40,4 +89,5 @@
 .theme-dark .emptyStateImage-2eMp68{
   background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
  background-size: cover;}
-.platform-win .sidebar-2K8pFh {border-radius: 0px;}
+.platform-win .sidebar-2K8pFh {border-radius: 0px;
+}
