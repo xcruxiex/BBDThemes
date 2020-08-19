@@ -1,4 +1,4 @@
-<h1>BBDThemes</h1>
+# BBDThemes
 
 These are all the Addons i have picked up from other devs throwing them out, or made by my own.
 I hope you enjoy! :)
@@ -12,19 +12,19 @@ I hope you enjoy! :)
 
 <!-- {{ string_with_newlines | newline_to_br }} -->
 
-# Welcome to my Addons 
+## Welcome to my Addons 
 View my Themes: [https://xcruxiex.github.io/BBDThemes/Themes/](https://xcruxiex.github.io/BBDThemes/Themes/)
 
 View my MiniThemes: [https://xcruxiex.github.io/BBDThemes/MiniThemes/](https://xcruxiex.github.io/BBDThemes/MiniThemes/)
 
 View my Fixes: [https://xcruxiex.github.io/BBDThemes/Fixes/](https://xcruxiex.github.io/BBDThemes/Fixes/)
 
-~~View my Random Stuff: [https://xcruxiex.github.io/BBDThemes/random/](https://xcruxiex.github.io/BBDThemes/random/)~~
+View my Random Stuff: [https://xcruxiex.github.io/BBDThemes/random/](https://xcruxiex.github.io/BBDThemes/random/)
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 View my FAQ page [here](https://xcruxiex.github.io/BBDThemes/FAQ). This should help!
 
-# BBDThemes Wiki!
+## BBDThemes Wiki!
 View the BBDThemes Wiki [here](https://github.com/xcruxiex/BBDThemes/wiki)!
 
 # CopyRight 
