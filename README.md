@@ -27,7 +27,7 @@ View my FAQ page [here](https://xcruxiex.github.io/BBDThemes/FAQ). This should h
 ## BBDThemes Wiki!
 View the BBDThemes Wiki [here](https://github.com/xcruxiex/BBDThemes/wiki)!
 
-# CopyRight 
+## CopyRight 
 The author cruxie retains full rights of the code in this repository, unless specified otherwise.
 You are not allowed to redistribute any code as your own. That means do not post an edited version of this anywhere.
 You are only allowed to edit the code for personal use only.
