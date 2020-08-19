@@ -24,7 +24,7 @@ View my Random Stuff: [https://xcruxiex.github.io/BBDThemes/random/](https://xcr
 ## Frequently Asked Questions
 View my FAQ page [here](https://xcruxiex.github.io/BBDThemes/FAQ). This should help!
 
-## BBDThemes Wiki!
+## Wiki!
 View the BBDThemes Wiki [here](https://github.com/xcruxiex/BBDThemes/wiki)!
 
 ## CopyRight 
