@@ -1,5 +1,29 @@
+/* Roles */
+@import url(https://xcruxiex.github.io/BBDThemes/random/roles.css);
+/* Blur Email */
+@import url(https://xcruxiex.github.io/BBDThemes/random/bluremail.css);
+/* Modern Embeds */
+@import url(https://xcruxiex.github.io/BBDThemes/random/modernembeds.css);
+/* CodeBlocks */
+@import url(https://xcruxiex.github.io/PowercordThemes/MiniThemes/CodeBlocks/CodeBlocks.css);
+
+/* User Backgrounds */
+@import url(https://xcruxiex.github.io/PowercordThemes/MiniThemes/UserBackgrounds/Main.css);
+@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+
 /* Discord Font */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+
+/* Modern Channels */
+@import url(https://hellbound1337.github.io/modern-indicators/src/source.css);
+:root {
+   --unread-badge: rgba(255,255,255,0.6) !important;
+   --unread-background: rgba(255, 255, 255, 0.008) !important;
+   --selected-badge: rgb(112, 135, 215) !important;
+   --selected-background: rgba(112, 135, 215, 0.1) !important;
+   --hovered: rgba(79,84,92,0.16) !important;
+   --active: rgba(79,84,92,0.24) !important;
+}
 
 /* CUSTOM WORDMARK */
 .wordmark-2iDDfm:after {
@@ -42,6 +66,29 @@
     right: 1px;
 }
 
+/* Blur Email */
+#app-mount .standardSidebarView-3F1I7i .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {
+    transition: all 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(4px);
+    opacity: 0.8;}
+#app-mount .standardSidebarView-3F1I7i .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {
+    transition: all 150ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(0px);
+    opacity: 0.8;
+}
+
+/* App Border Gradient */
+body {
+    padding: 2px;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to right, #dc9aa5, #dc9aa5);
+    background: linear-gradient(to right, #dc9aa5, #dc9aa5);
+}
+#app-mount {
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+}
+
 /* Transparent guid icon emoji picker */
 .guildIcon-3h-1IH{background-color: transparent;
 }
@@ -54,4 +101,110 @@
 /* Better Quoter Separator */
 .separator-42rNt0 {
     display: none;
+}
+
+/* User Selected Gradient *//*
+.member-3-YXUe {
+	background: transparent !important;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;}
+.members-1998pB .member-3-YXUe.offline-3nJYBR .avatar-3uk_u9 {
+	-webkit-filter: grayscale(100%) blur(1px);
+	filter: grayscale(100%) blur(1px);
+	transition: all .5s ease-in-out;}
+.members-1998pB .member-3-YXUe.offline-3nJYBR:hover .avatar-3uk_u9 {
+	-webkit-filter: none;
+	filter: none;}
+.members-1998pB .member-3-YXUe .layout-2DM8Md {
+	position: relative;
+	background: transparent;
+	transition: all .15s ease-in-out, transform .1s ease-in-out;
+	z-index: 1;}
+.members-1998pB .member-3-YXUe .layout-2DM8Md:active {
+	transform: scale(0.9);}
+.members-1998pB .member-3-YXUe .roleColor-rz2vM0 {
+	max-width: 100%;
+	overflow: visible;
+	transition: all .15s ease-in-out;}
+.members-1998pB .member-3-YXUe .roleColor-rz2vM0:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.07) 90%, transparent);
+	border-radius: 3px;
+	opacity: 0;
+	transition: all .15s ease-in-out;
+	z-index: -1;
+	pointer-events: none;}
+.members-1998pB .member-3-YXUe .roleColor-rz2vM0:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 100%;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(to right, var(--main-color) 90%, transparent);
+	border-radius: 3px;
+	opacity: .8;
+	transition: all .3s ease-in-out;
+	z-index: -1;
+	pointer-events: none;}
+.members-1998pB .member-3-YXUe .roleColor-rz2vM0[style*="color:"]:before, .members-1998pB .member-3-YXUe .roleColor-rz2vM0[style*="color:"]:after {
+	background: linear-gradient(to right, currentColor 90%, transparent);}
+.members-1998pB .member-3-YXUe:hover .roleColor-rz2vM0:before, .members-1998pB .selected-aXhQR6.member-3-YXUe .roleColor-rz2vM0:before {
+	opacity: 1;}
+.members-1998pB .member-3-YXUe:hover .roleColor-rz2vM0[style*="color:"]:before, .members-1998pB .selected-aXhQR6.member-3-YXUe .roleColor-rz2vM0[style*="color:"]:before {
+	opacity: .07;}
+.members-1998pB .selected-aXhQR6.member-3-YXUe .roleColor-rz2vM0 {
+	-webkit-text-fill-color: #fff;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);}
+.members-1998pB .selected-aXhQR6.member-3-YXUe .roleColor-rz2vM0:after {
+	right: 0;}
+.members-1998pB .memberGroupsPlaceholder-3mwPub {
+	margin: 0 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 50%;
+	color: rgba(255, 255, 255, 0.3);}
+.members-1998pB .memberGroupsPlaceholder-3mwPub:before, .members-1998pB .memberGroupsPlaceholder-3mwPub:after {
+	content: "";
+	height: 2px;
+	flex-grow: 1;}
+.members-1998pB .memberGroupsPlaceholder-3mwPub:before {
+	background: linear-gradient(to left, currentColor 50%, transparent);
+	margin-right: calc(50% + 5px);
+	margin-left: -50%;}
+.members-1998pB .memberGroupsPlaceholder-3mwPub:after {
+	background: linear-gradient(to right, currentColor 50%, transparent);
+	margin-right: -50%;
+	margin-left: calc(50% + 5px);}
+.members-1998pB .memberGroupsPlaceholder-3mwPub, .members-1998pB .placeholderAvatar-damqh6, .members-1998pB .placeholderUsername-2B_OA9, .members-1998pB .mulitplePlaceholderUsername-pogq9I {
+	background: rgba(255, 255, 255, 0.3);
+} */
+
+/*DARK MODE Colored wumpus images */
+/* All-Online*/
+.image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/All-Friends.svg') !important;
+  background-size: cover;}
+/* Pending */
+.image-1GzsFd[style*='background-image: url("/assets/b669713872b43ca42333264abf9c858e.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/pending.svg') !important;
+  background-size: cover;}
+/* Blocked */
+.image-1GzsFd[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/Blocked.svg') !important;
+  background-size: cover;}
+/* LIBRARY TAB */
+.theme-dark .emptyWumpus-12J3jI{
+ background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+ background-size: cover;}
+.theme-dark .emptyStateImage-2eMp68{
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+ background-size: cover;}
+.platform-win .sidebar-2K8pFh {border-radius: 0px;
 }
