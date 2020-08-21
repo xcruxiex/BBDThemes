@@ -55,6 +55,7 @@
 .scroller-2TZvBN>.listItem-2P_4kh:nth-child(2){margin-left: 0px !important;
 }
 
+/*#######################################################################*/
 /* Powercord Conflicts */
 .powercord .hljs:before {
   content: none !important;}
@@ -64,11 +65,39 @@
   content: none;
 }
 
+/* Powercord Updater */
+.powercord-toast {
+    background: rgba(0,0,0,0.7) !important;
+    border: 1px solid var(--main-color) !important;
+    box-shadow: 0 0px 10px 0 var(--main-color) !important;
+}
+.powercord-toast .header {
+    background: rgba(0,0,0,0.2) !important;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.3) !important;
+}
+.powercord-toast .contents .inner {
+    background: transparent !important;
+    border: none !important;
+    padding: 10px 25px !important;
+}
+.powercord-toast .buttons button[class*=lookGhost-] {
+    background: var(--main-color) !important;
+    opacity: 0.8 !important;
+    color: white;
+}
+.powercord-toast .buttons button[class*=lookGhost-]:hover {
+    opacity: 1 !important;
+}
+.powercord-toast .buttons button:hover {
+    background: rgb(116, 127, 141);
+    color: white;
+}
+
 /* Duped Cv :tm: */
 .powercord .powercord-spotify > .container-3baos1:before, .powercord .powercord-spotify > .container-3baos1:after {
   content: none;
 }
-
+/*#######################################################################*/
 /*DARK MODE Colored wumpus images */
 /* All-Online*/
 .image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] {
