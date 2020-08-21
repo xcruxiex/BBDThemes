@@ -55,15 +55,17 @@
 }
 
 /* Modern Embeds */
-.embedWrapper-lXpS3L.embedFull-2tM8--{
-    border-left: 5px solid none;
+.grid-1nZz7S,.embedWrapper-lXpS3L.embedFull-2tM8-- {
+    backdrop-filter: blur(10px) opacity(0.7);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     box-shadow: var(--elevation-high);}
-.grid-1nZz7S {
-    backdrop-filter: blur(10px) opacity(0.9);
-    border-radius: 5px;}
 .embedSuppressButton-1FonMn {
     top: 1px;
-    right: 1px;
+    right: 1px;}
+.embedFull-2tM8-- {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 /* Blur Email */
