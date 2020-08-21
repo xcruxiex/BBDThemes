@@ -48,6 +48,12 @@
 .channelTabs-newTab:hover {background: var(--hover-color) !important;
 }
 
+/* Better Quoter */
+.modifiedQuote {background-color: var(--background-overlay);}
+.theme-dark .button-2CgfFz {background-color: #36393f;-webkit-box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);}
+.theme-dark .button-2CgfFz:hover {background-color: #36393f;-webkit-box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);
+}
+
 /* Dm Issue */
 .item-2hkk8m{width: 10px !important;height: 48px !important;}
 .scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2){justify-content: left !important;}
