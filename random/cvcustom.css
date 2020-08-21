@@ -50,8 +50,8 @@
 
 /* Better Quoter */
 .modifiedQuote {background-color: var(--background-overlay);}
-.theme-dark .button-2CgfFz {background-color: #36393f;-webkit-box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);}
-.theme-dark .button-2CgfFz:hover {background-color: #36393f;-webkit-box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);
+.theme-dark .button-2CgfFz {background-color: var(--background-overlay);-webkit-box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);box-shadow: 0 0 0 1px var(--background-overlay), 0 1px 5px 0 var(--background-overlay);}
+.theme-dark .button-2CgfFz:hover {background-color: var(--background-overlay);-webkit-box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);box-shadow: 0 0 0 1px var(--main-color), 0 1px 5px 0 var(--main-color);
 }
 
 /* Dm Issue */
