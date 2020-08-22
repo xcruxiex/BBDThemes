@@ -43,10 +43,3 @@ Icons for settings → Includes bd settings
 Download: [HERE](https://xcruxiex.github.io/BBDThemes/random/bdsettingicons.css)
 
 ![bdsettingicons Demo](https://i.imgur.com/jOIC9gi.png)
-
-## PCSettingIcons
-Icons for settings → Includes pc settings. Disclaimer: any aditional plugins wont have icons next to them!
-
-Download: [HERE](https://xcruxiex.github.io/BBDThemes/random/pcsettingicons.css)
-
-![pcsettingicons Demo](https://i.imgur.com/h2Cu8Xl.png)
