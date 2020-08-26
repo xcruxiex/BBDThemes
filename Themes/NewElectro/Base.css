@@ -1133,7 +1133,7 @@ padding-right: 0px;
 	border-radius: 0!important
 }
 
-.button-3To2tQ.buttonSize-DbrWhv:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,2D7oAl.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorGreen-29iAKY:hover .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.button-3To2tQ.buttonSize-DbrWhv:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.lookOutlined-3sRXeN.colorGreen-29iAKY:hover .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 	background-color: var(--primary2)!important
 }
 
@@ -1563,12 +1563,12 @@ padding-right: 0px;
 }
 
 .itemBackground-2vEldQ:before {
-	background: radial-gradient(ellipse at top,rgba(0,0,0,0),var(--medium)),linear-gradient(90deg,var(--medium) 0,rgba(,0,0,0) 40%,rgba(0,0,0,0) 60%,var(--medium)),linear-gradient(0deg,var(--medium) 0,rgba(0,0,0,0) 25%)!important
+	background: radial-gradient(ellipse at top,rgba(0,0,0,0),var(--medium)),linear-gradient(90deg,var(--medium) 0,rgba(0,0,0) 40%,rgba(0,0,0,0) 60%,var(--medium)),linear-gradient(0deg,var(--medium) 0,rgba(0,0,0,0) 25%)!important
 }
 
 @media (min-width:849px) {
 	.itemBackground-2vEldQ:before {
-		background: radial-gradient(ellipse at top,rgba(0,0,0,0),var(--medium)),linear-gradient(90deg,var(--medium) 0,rgba(,0,0,0) 40%,rgba(0,0,0,0) 60%,var(--medium)),linear-gradient(0deg,var(--medium) 0,rgba(0,0,0,0) 25%)!important
+		background: radial-gradient(ellipse at top,rgba(0,0,0,0),var(--medium)),linear-gradient(90deg,var(--medium) 0,rgba(0,0,0) 40%,rgba(0,0,0,0) 60%,var(--medium)),linear-gradient(0deg,var(--medium) 0,rgba(0,0,0,0) 25%)!important
 	}
 }
 
