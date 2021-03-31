@@ -4,7 +4,7 @@ Describe the big picture of your changes here to communicate to the maintainers 
 
 ## Types of changes
 
-What types of changes does your code introduce to Appium?
+What types of changes does your code introduce?
 __Put an `x` in the boxes that apply like so [x]__
 
 - [ ] Bugfix (non-breaking change which fixes an issue)
@@ -16,7 +16,6 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 
 - [ ] I have tested this change locally.
 - [ ] My tests were successful with the changes applied.
-- [ ] I have added necessary documentation (if appropriate).
 
 ## Further comments
 
