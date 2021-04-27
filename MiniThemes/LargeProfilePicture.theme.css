@@ -9,10 +9,7 @@
     mask: none;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA rect {
-    width: 10px;
-    height:10px;
-    x: 68px;
-    y: 68px;
+    transform: scale(0.5, 0.5) translate(77px, 77px);
 }
 .userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA {
     width: 250px !important;
