@@ -10,6 +10,8 @@
 	background-color: #0000 !important;
 }
 #app-mount .avatarWrapperNormal-2tu8Ts > .wrapper-3t9DeA[style*="width: 80px;"] {
+	width: 300px !important;
+	height: 300px !important;
 	transform: scale(0.8, 0.91) translate(4px, 4px);
 }
 #app-mount .headerNormal-1l1Znk {
@@ -28,8 +30,9 @@
 	padding-top: 16px;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA foreignObject {
-    -webkit-mask: none !important;
-    mask: none !important;
+	-webkit-mask: none !important;
+	mask: none !important;
+	transform: scale(1.1, 1.1) translate(-3px, -3px);
 }
 .avatarHintInner-2kMTo4 {
 	box-shadow: none;
