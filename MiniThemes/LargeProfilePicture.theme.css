@@ -1,40 +1,37 @@
-//META{"name":"LargeProfilePicture","description":"A larger profile picture for those who have no eyes!","author":"cruxie","version": "AutoUpdate","website": "https://github.com/xcruxiex/BDDThemes", "source":"https://xcruxiex.github.io/BBDThemes/MiniThemes/LargeProfilePicture.theme.css"}*//{}
+//META{"name":"LargeProfilePicture","description":"A larger profile picture for those who have no eyes! (Yoinked from BoardTM after an update)","author":"cruxie","version": "AutoUpdate","website": "https://github.com/xcruxiex/BDDThemes", "source":"https://xcruxiex.github.io/BBDThemes/MiniThemes/LargeProfilePicture.theme.css"}*//{}
 /*
 /*  Large Profile Picture in Popout */
-.userPopout-3XzG_A::before {
-    top: 250px;
+.avatarPositionNormal-1CZUPk {
+    top: 0px;
+    left: 0px;
+}
+#app-mount .avatar-22FtUu {
+	border: 0px !important;
+	background-color: #0000 !important;
+}
+#app-mount .avatarWrapperNormal-2tu8Ts > .wrapper-3t9DeA[style*="width: 80px;"] {
+	width: 300px !important;
+	height: 300px !important;
+}
+#app-mount .headerNormal-1l1Znk {
+	padding-top: 300px !important;
+}
+.avatarHint-1E3LMl {
+	height: 300px;
+	width: 300px;
+	top: 0px;
+	left: 0px;
+}
+#app-mount .profileBanner-33-uE1 {
+	display: none
+}
+.headerTop-2y3V6H {
+	padding-top: 16px;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA foreignObject {
-    -webkit-mask: none;
-    mask: none;
+    -webkit-mask: none !important;
+    mask: none !important;
 }
-.userPopout-3XzG_A .wrapper-3t9DeA rect {
-    transform: scale(0.5, 0.5) translate(77px, 77px);
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA {
-    width: 250px !important;
-    height: 250px !important;
-}
-.userPopout-3XzG_A .headerTop-3C2Zn0{
-    padding: 0;
-    padding-bottom: 8px;
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 {
-    width: 250px !important;
-    height: 250px !important;
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .avatarHint-1qgaV3 foreignObject {
-    -webkit-mask: none;
-    mask: none;
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-    width: 250px !important;
-    height: 250px !important;
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 foreignObject {
-    -webkit-mask: none;
-    mask: none;
-}
-.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf .wrapper-3t9DeA {
-    box-shadow: none !important;    
+.avatarHintInner-2kMTo4 {
+	box-shadow: none;
 }
