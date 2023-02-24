@@ -1,0 +1,155 @@
+/*
+Done up to profiles
+
+Need to do
+Drop down list on profiles
+
+
+
+
+
+
+/**
+ * @name Xeno
+ * @version 2.0
+ * @description A minimalistic theme with nice gradients & a background image feature.
+ * @author xcruxiex
+ * @invite 
+ * @source https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Base.css
+ * @website https://github.com/xcruxiex/BBDThemes
+ *//*
+██╗  ██╗███████╗███╗   ██╗ ██████╗
+╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
+ ╚███╔╝ █████╗  ██╔██╗ ██║██║   ██║
+ ██╔██╗ ██╔══╝  ██║╚██╗██║██║   ██║
+██╔╝ ██╗███████╗██║ ╚████║╚██████╔╝
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
++ ========================= +
++ Xeno Theme for BandagedBetterDiscord 
++ Made By cruxie
++ ========================= +
+The author cruxie retains full rights of this code.
+You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
+You are only allowed to edit the theme for personal use only.
+If you enjoy using the theme, help spread the word!
+*/
+/*###################################################################################################*/
+/* Main Import */
+@import url("https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Base.css");
+/* MiniThemes */
+@import url('https://xcruxiex.github.io/BBDThemes/MiniThemes/CodeBlocks.theme.css');
+/* Addons */
+@import url('https://xcruxiex.github.io/themes/core/badges.css');
+@import url('https://xcruxiex.github.io/themes/core/settings-icons.css');
+@import url('https://xcruxiex.github.io/BBDThemes/random/hideactivenow.css');
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://xcruxiex.github.io/themes/core/custom-font.css');
+/*###################################################################################################*/
+
+:root {
+  /* Background color */
+  --backgroundColor: #121212;
+
+  /* Background image */
+  --backgroundImage: url('https://i.imgur.com/l6Qrwos.jpg');
+  --backgroundImageOpacity: 0.5;
+
+  /* Home button image */
+  --homeButtonImage: url('https://i.imgur.com/RjNJ7sb.jpg');
+
+  /* Theme Colors */
+  --uiGradient1: #dc9aa5;
+  --uiGradient2: #d15a6e;
+
+  /* Text Colors */
+  --textNormal: #dcddde;
+  --textMuted: #72767d;
+  --textLinks: #dc9aa5;
+  --channelsDefault: #e4e4e4;
+  --channelsNormal: #d6d6d6;
+  --channelsHover: #ebebeb;
+  --channelsActive: #fff;
+  --channelsMuted: #7d7d7d;
+
+  /* Theme custom font (You need to import the font file first)*/
+  --customFont: 'Quicksand';
+}
+
+/* background color */
+.appMount-2yBXZl {background-color: var(--backgroundColor) !important;}
+/* background image */
+.appMount-2yBXZl::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    background-image: var(--backgroundImage);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-origin: border-box;
+    -webkit-mask: radial-gradient(#000 40%, transparent);
+    z-index: 0;
+    opacity: var(--backgroundImageOpacity);
+}
+/* Main Background */
+.app-2CXKsg, .bg-1QIAus, .wrapper-1_HaEi, .theme-dark .scroller-3X7KbA, .sidebar-1tnWFu, .privateChannels-oVe7HL, .theme-dark .scroller-WSmht3, .panels-3wFtMD, .chat-2ZfjoI, .chatContent-3KubbW, .theme-dark .themed-Hp1KC_, .theme-dark .container-YkUktl, .theme-dark .container-1NXEtd, .member-48YF_l, .members-3WRCEx, .container-3wLKDe, .container-2o3qEW{background: transparent;}
+/* Settings Background */
+.contentRegionScroller-2_GT_N::before, .sidebarRegionScroller-FXiQOh::before {
+    content: "";
+    width: 100%;
+    height: 160%;
+    position: absolute;
+    pointer-events: none;
+    background-image: var(--backgroundImage);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-origin: border-box;
+    -webkit-mask: radial-gradient(#000 40%, transparent);
+    z-index: 0;
+    opacity: var(--backgroundImageOpacity);
+}
+.layer-86YKbF, .standardSidebarView-E9Pc3j, .sidebarRegionScroller-FXiQOh, .contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N {background: transparent !important;}
+
+.selected-g-kMVV:not(.top-K_jibn .item-3XjbnG) {background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));}
+.item-3XjbnG:hover:not(.top-K_jibn .item-3XjbnG) {background-image: linear-gradient(to top right,var(--uiGradient2),var(--uiGradient1));}
+
+/* My Account */
+.accountProfileCard-lbN7n-, .background-3d_SjE {
+  background-color: rgba(1,1,1,0.3);
+}
+.fieldList-in8WkP {
+  background-color: transparent;
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz, .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  background-color: var(--uiGradient1);
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover, .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background-color: var(--uiGradient2);
+}
+/* Profiles */
+.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {border-color: var(--uiGradient1);}
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover{border-color: var(--uiGradient2);}
+.theme-dark .bioTextArea-dDGOeC, .theme-light .bioTextArea-dDGOeC {
+  background-color: rgba(1,1,1,0.5);
+}
+.helpIcon-2EyVTp, .modal-yWgWj->* {
+  background-color: rgba(1,1,1,0.6) !important;
+}
+.userProfileInnerThemedWithBanner-2624Yx {border-radius: 5px;}
+
+.lookFilled-GPyucw.select-Zz0IcO {
+  background-color: rgba(1,1,1,0.6);
+  border-color:transparent;
+}
+.inputDefault-Ciwd-S {
+  background-color: rgba(1,1,1,0.5);
+  border-color:transparent;
+}
