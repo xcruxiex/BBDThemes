@@ -79,10 +79,9 @@ If you enjoy using the theme, help spread the word!
     1b - Background Color
     1c - Settings Background
   2 - Settings
-	2a - 
-	2b - 
-	2c - 
-
+	2a - Sidebar
+	2b - Miscellaneous
+	2c - Setting Sections (Named In-Order)
 */
 
 /* App Background */
@@ -166,7 +165,8 @@ If you enjoy using the theme, help spread the word!
 	background: transparent !important;
 }
 
-
+/* Settings */
+/* 2a - Sidebar */
 
 /* Setting Tabs */
 .selected-1sf9UK:not(.top-Ktfr_T .item-2GWPIy) {
@@ -200,6 +200,8 @@ If you enjoy using the theme, help spread the word!
 	width: 5px;
 }
 
+/* 2b - Miscellaneous */
+
 /* Color Picker */
 .theme-dark .customColorPicker-C_jddW {
 	background-color: var(--backgroundColor);
@@ -214,6 +216,17 @@ If you enjoy using the theme, help spread the word!
 .container-20TyK0 {
 	background-color: var(--backgroundColor) !important;
 }
+
+/* Checkmarks */
+.container-1QtPKm.checked-16gMAN {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+
+.container-1QtPKm.default-colors {
+	background-color: var(--backgroundTransparency) !important;
+}
+
+/* 2c - Setting Sections (Named In-Order) */
 
 /* My Account */
 .accountProfileCard-lbN7n-,
@@ -233,15 +246,6 @@ If you enjoy using the theme, help spread the word!
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
 	background-color: var(--uiGradient2);
-}
-
-/* Checkmarks */
-.container-1QtPKm.checked-16gMAN {
-	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
-}
-
-.container-1QtPKm.default-colors {
-	background-color: var(--backgroundTransparency) !important;
 }
 
 /* Profiles */
@@ -527,3 +531,4 @@ If you enjoy using the theme, help spread the word!
 /* Hypesquad */
 
 /* Logout */
+
