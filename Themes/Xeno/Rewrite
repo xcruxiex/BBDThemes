@@ -2,7 +2,7 @@
 Need to do
 Drop down list on profiles
 Drop down on add game (registered games)
-
+Active now hover
 
 /**
  * @name Xeno
@@ -12,7 +12,8 @@ Drop down on add game (registered games)
  * @invite 
  * @source https://xcruxiex.github.io/BBDThemes/Themes/Xeno/Base.css
  * @website https://github.com/xcruxiex/BBDThemes
- *//*
+ */
+/*
 ██╗  ██╗███████╗███╗   ██╗ ██████╗
 ╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
  ╚███╔╝ █████╗  ██╔██╗ ██║██║   ██║
@@ -43,33 +44,33 @@ If you enjoy using the theme, help spread the word!
 /*###################################################################################################*/
 
 :root {
-  /* Background color */
-  --backgroundColor: #121212;
-  --backgroundTransparency: rgba(1,1,1,0.5);
+	/* Background color */
+	--backgroundColor: #121212;
+	--backgroundTransparency: rgba(1, 1, 1, 0.5);
 
-  /* Background image */
-  --backgroundImage: url('https://i.imgur.com/l6Qrwos.jpg');
-  --backgroundImageOpacity: 0.5;
+	/* Background image */
+	--backgroundImage: url('https://i.imgur.com/l6Qrwos.jpg');
+	--backgroundImageOpacity: 0.5;
 
-  /* Home button image */
-  --homeButtonImage: url('https://i.imgur.com/RjNJ7sb.jpg');
+	/* Home button image */
+	--homeButtonImage: url('https://i.imgur.com/RjNJ7sb.jpg');
 
-  /* Theme Colors */
-  --uiGradient1: #dc9aa5;
-  --uiGradient2: #d15a6e;
+	/* Theme Colors */
+	--uiGradient1: #dc9aa5;
+	--uiGradient2: #d15a6e;
 
-  /* Text Colors */
-  --textNormal: #dcddde;
-  --textMuted: #72767d;
-  --text-link: #dc9aa5;
-  --channelsDefault: #e4e4e4;
-  --channelsNormal: #d6d6d6;
-  --channelsHover: #ebebeb;
-  --channelsActive: #fff;
-  --channelsMuted: #7d7d7d;
+	/* Text Colors */
+	--textNormal: #dcddde;
+	--textMuted: #72767d;
+	--text-link: #dc9aa5;
+	--channelsDefault: #e4e4e4;
+	--channelsNormal: #d6d6d6;
+	--channelsHover: #ebebeb;
+	--channelsActive: #fff;
+	--channelsMuted: #7d7d7d;
 
-  /* Theme custom font (You need to import the font file first)*/
-  --customFont: 'Quicksand';
+	/* Theme custom font (You need to import the font file first)*/
+	--customFont: 'Quicksand';
 }
 
 /*
@@ -82,9 +83,14 @@ If you enjoy using the theme, help spread the word!
 	2a - Sidebar
 	2b - Miscellaneous
 	2c - Setting Sections (Named In-Order)
+  3 - Friends
+	3a - Background
+	3b - Grid
+	3c - Active Now
+
 */
 
-/* App Background */
+/* 1 - App Background */
 /* 1a - Background Image */
 
 /* Overlay Color */
@@ -165,13 +171,14 @@ If you enjoy using the theme, help spread the word!
 	background: transparent !important;
 }
 
-/* Settings */
+/* 2- Settings */
 /* 2a - Sidebar */
 
 /* Setting Tabs */
 .selected-1sf9UK:not(.top-Ktfr_T .item-2GWPIy) {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
+
 .item-2GWPIy:hover:not(.top-Ktfr_T .item-2GWPIy) {
 	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient1));
 }
@@ -532,3 +539,163 @@ If you enjoy using the theme, help spread the word!
 
 /* Logout */
 
+/* 3 - Friends */
+/* 3a - Background */
+
+/* background */
+.container-2cd8Mz,
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU {
+	background-color: transparent;
+}
+
+.scroller-hE2gWq {
+	border: none;
+}
+
+/* Scroller */
+.auto-2TJ1RH::-webkit-scrollbar-track {
+	background-color: transparent;
+	border: 0px solid transparent;
+}
+
+.auto-2TJ1RH::-webkit-scrollbar-thumb {
+	border: 0px solid transparent;
+	border-radius: 5px;
+	background-color: var(--backgroundTransparency);
+}
+
+.auto-2TJ1RH::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Search Bar */
+.searchBar-2aylmZ {
+	background-color: var(--backgroundTransparency);
+}
+
+/* weird shadow thing ???????? */
+.theme-dark .children-3xh0VB:after {
+	display: none;
+}
+
+/* 3b - Grid */
+
+/* Friends List */
+.peopleListItem-u6dGxF {
+	position: relative;
+	display: inline-grid;
+	height: 175px !important;
+	width: 315px;
+	margin: 1% !important;
+	padding: 0 !important;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+	animation: friendGridFade .75s ease;
+	transition: 250ms ease all, 350ms ease background-color;
+}
+
+.peopleListItem-u6dGxF:hover {
+	transform: scale(1.05);
+	background-color: transparent;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+}
+
+.peopleListItem-u6dGxF:active {
+	transform: scale(0.95);
+}
+
+/* Name */
+.discordTag-3HiQI9 {
+	position: absolute;
+	display: block;
+	top: 30px;
+	left: 64px;
+	color: rgba(255, 255, 255, 0.65);
+	font-size: 13px;
+	overflow: visible;
+	transition: .15s ease color;
+}
+
+/* Discriminator #number */
+.discriminator-WV5K5s {
+	visibility: visible !important;
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	color: rgba(255, 255, 255, 0.4);
+	opacity: 1 !important;
+	transition: .15s ease color;
+}
+
+/* Avatar */
+.avatar-2MSPKk.wrapper-3Un6-K {
+	margin-bottom: 85px;
+	margin-left: 15px !important;
+}
+
+/* action buttons */
+.actions-YHvpIT {
+	position: absolute;
+	left: 69%;
+	top: 26px;
+}
+
+/* Status position */
+.text-MPIeXO {
+	position: absolute;
+	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient2));
+	width: 100%;
+	color: rgba(255, 255, 255, 1);
+	font-weight: 500 !important;
+	font-size: 11px;
+	line-height: 18px;
+	padding-left: 5px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+/* Status position if activity */
+.icon-Lupfh-,
+.customStatusEmoji-3UDRIW {
+	padding-left: 94%;
+}
+
+/* Activity Icon */
+.activity-1KqKY2 {
+	position: absolute;
+	width: 100%;
+	padding-left: 0px;
+	top: 0;
+	left: 0;
+}
+
+/* Message Button */
+.actionButton-3-B2x-,
+.actionButton-3-B2x-.highlight-3DSi7b {
+	background-color: transparent;
+}
+
+.actionButton-3-B2x-:hover {
+	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient2));
+}
+
+/* 3c - Active now */
+
+/* Boxes */
+.wrapper-2RrXDg {
+	background-color: var(--backgroundTransparency);
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.wrapper-2RrXDg:hover {
+	background-color: var(--backgroundTransparency);
+}
+
+.theme-dark .inset-SbsSFp,
+.section-3G9aLW {
+	background-color: transparent;
+}
