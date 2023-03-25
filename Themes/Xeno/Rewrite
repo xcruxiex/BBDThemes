@@ -1,6 +1,7 @@
 /*
 Need to do
 Drop down list on profiles
+Drop down on add game (registered games)
 
 
 /**
@@ -71,232 +72,458 @@ If you enjoy using the theme, help spread the word!
   --customFont: 'Quicksand';
 }
 
-/* background color */
-.appMount-2yBXZl {background-color: var(--backgroundColor) !important;}
-/* background image */
-.appMount-2yBXZl::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    pointer-events: none;
-    background-image: var(--backgroundImage);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-attachment: fixed;
-    background-origin: border-box;
-    -webkit-mask: radial-gradient(#000 40%, transparent);
-    z-index: 0;
-    opacity: var(--backgroundImageOpacity);
-}
-/* Main Background */
-.app-2CXKsg, .bg-1QIAus, .wrapper-1_HaEi, .theme-dark .scroller-3X7KbA, .sidebar-1tnWFu, .privateChannels-oVe7HL, .theme-dark .scroller-WSmht3, .panels-3wFtMD, .chat-2ZfjoI, .chatContent-3KubbW, .theme-dark .themed-Hp1KC_, .theme-dark .container-YkUktl, .theme-dark .container-1NXEtd, .member-48YF_l, .members-3WRCEx, .container-3wLKDe, .container-2o3qEW{background: transparent;}
-/* Settings Background */
-.contentRegionScroller-2_GT_N::before, .sidebarRegionScroller-FXiQOh::before {
-    content: "";
-    width: 100%;
-    height: 160%;
-    position: absolute;
-    pointer-events: none;
-    background-image: var(--backgroundImage);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-attachment: fixed;
-    background-origin: border-box;
-    -webkit-mask: radial-gradient(#000 40%, transparent);
-    z-index: 0;
-    opacity: var(--backgroundImageOpacity);
-}
-.layer-86YKbF, .standardSidebarView-E9Pc3j, .sidebarRegionScroller-FXiQOh, .contentRegion-3HkfJJ, .contentRegionScroller-2_GT_N {background: transparent !important;}
+/*
+0 - Index
+  1 - App Background
+    1a - Background Image
+    1b - Background Color
+    1c - Settings Background
+  2 - Settings
+	2a - 
+	2b - 
+	2c - 
 
-.selected-g-kMVV:not(.top-K_jibn .item-3XjbnG) {background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));}
-.item-3XjbnG:hover:not(.top-K_jibn .item-3XjbnG) {background-image: linear-gradient(to top right,var(--uiGradient2),var(--uiGradient1));}
+*/
+
+/* App Background */
+/* 1a - Background Image */
+
+/* Overlay Color */
+.appMount-2yBXZl {
+	background-color: var(--backgroundColor) !important;
+}
+
+/* Image */
+.appMount-2yBXZl::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	pointer-events: none;
+	background-image: var(--backgroundImage);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	background-attachment: fixed;
+	background-origin: border-box;
+	-webkit-mask: radial-gradient(#000 40%, transparent);
+	z-index: 0;
+	opacity: var(--backgroundImageOpacity);
+}
+
+/* 1b - Background Color */
+
+/* Main Background */
+.app-2CXKsg,
+.bg-1QIAus,
+.wrapper-1_HaEi,
+.theme-dark .scroller-3X7KbA,
+.sidebar-1tnWFu,
+.privateChannels-oVe7HL,
+.theme-dark .scroller-WSmht3,
+.panels-3wFtMD,
+.chat-2ZfjoI,
+.chatContent-3KubbW,
+.theme-dark .themed-Hp1KC_,
+.theme-dark .container-YkUktl,
+.theme-dark .container-1NXEtd,
+.member-48YF_l,
+.members-3WRCEx,
+.container-3wLKDe,
+.container-2o3qEW {
+	background: transparent;
+}
+
+/* 1c - Settings Background */
+
+/* Background Image */
+.contentRegionScroller-2_GT_N::before,
+.sidebarRegionScroller-FXiQOh::before {
+	content: "";
+	width: 100%;
+	height: 160%;
+	position: absolute;
+	pointer-events: none;
+	background-image: var(--backgroundImage);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	background-attachment: fixed;
+	background-origin: border-box;
+	-webkit-mask: radial-gradient(#000 40%, transparent);
+	z-index: 0;
+	opacity: var(--backgroundImageOpacity);
+}
+
+/* Background Color */
+.layer-86YKbF,
+.standardSidebarView-E9Pc3j,
+.sidebarRegionScroller-FXiQOh,
+.contentRegion-3HkfJJ,
+.contentRegionScroller-2_GT_N {
+	background: transparent !important;
+}
+
+
+
+/* Setting Tabs */
+.selected-1sf9UK:not(.top-Ktfr_T .item-2GWPIy) {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+.item-2GWPIy:hover:not(.top-Ktfr_T .item-2GWPIy) {
+	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient1));
+}
+
+/* Setting Headers */
+.header-2F5_LB {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: brightness(1.2);
+	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient1));
+}
 
 /* Scroller */
 .thin-31rlnD::-webkit-scrollbar-track {
-  background-color: transparent;
-  border: 0px solid transparent;
+	background-color: transparent;
+	border: 0px solid transparent;
 }
+
 .thin-31rlnD::-webkit-scrollbar-thumb {
-  border: 0px solid transparent;
-  border-radius: 5px;
-  background-color: var(--backgroundTransparency);
+	border: 0px solid transparent;
+	border-radius: 5px;
+	background-color: var(--backgroundTransparency);
 }
+
 .thin-31rlnD::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 
 /* Color Picker */
 .theme-dark .customColorPicker-C_jddW {
-  background-color: var(--backgroundColor);
-  border-color: var(--backgroundColor);
+	background-color: var(--backgroundColor);
+	border-color: var(--backgroundColor);
 }
+
 .suggestedColor-2q1U7c {
-  border-color: var(--backgroundColor);
+	border-color: var(--backgroundColor);
 }
 
 /* Save Changes */
 .container-20TyK0 {
-  background-color: var(--backgroundColor) !important;
+	background-color: var(--backgroundColor) !important;
 }
 
 /* My Account */
-.accountProfileCard-lbN7n-, .background-3d_SjE {
-  background-color: var(--backgroundTransparency);
+.accountProfileCard-lbN7n-,
+.background-3d_SjE {
+	background-color: var(--backgroundTransparency);
 }
+
 .fieldList-in8WkP {
-  background-color: transparent;
+	background-color: transparent;
 }
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz, .lookFilled-1H2Jvj.colorBrand-2M3O3N {
-  background-color: var(--uiGradient1);
+
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+	background-color: var(--uiGradient1);
 }
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover, .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
-  background-color: var(--uiGradient2);
+
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+	background-color: var(--uiGradient2);
 }
 
 /* Checkmarks */
-.container-1QtPKm {
-  background-color: var(--backgroundTransparency) !important;
+.container-1QtPKm.checked-16gMAN {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+
+.container-1QtPKm.default-colors {
+	background-color: var(--backgroundTransparency) !important;
 }
 
 /* Profiles */
-.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {border-color: var(--uiGradient1);}
-.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover{border-color: var(--uiGradient2);}
-.theme-dark .bioTextArea-dDGOeC, .theme-light .bioTextArea-dDGOeC {
-  background-color: var(--backgroundTransparency);
+.top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {
+	border-color: var(--uiGradient1);
 }
-.helpIcon-2EyVTp, .modal-yWgWj->* {
-  background-color: var(--backgroundTransparency) !important;
+
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:hover {
+	border-color: var(--uiGradient2);
 }
-.userProfileInnerThemedWithBanner-2624Yx {border-radius: 5px;}
+
+.theme-dark .bioTextArea-dDGOeC,
+.theme-light .bioTextArea-dDGOeC {
+	background-color: var(--backgroundTransparency);
+}
+
+.helpIcon-2EyVTp,
+.modal-yWgWj->* {
+	background-color: var(--backgroundTransparency) !important;
+}
+
+.userProfileInnerThemedWithBanner-2624Yx {
+	border-radius: 5px;
+}
 
 .lookFilled-GPyucw.select-Zz0IcO {
-  background-color: var(--backgroundTransparency);
-  border-color:transparent;
+	background-color: var(--backgroundTransparency);
+	border-color: transparent;
 }
+
 .inputDefault-Ciwd-S {
-  background-color: var(--backgroundTransparency);
-  border-color:transparent;
+	background-color: var(--backgroundTransparency);
+	border-color: transparent;
 }
 
 /* Privacy & Satefy */
 .itemFilled-2Fo7lr {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
-.itemFilled-2Fo7lr[aria-checked=true]  {
-  background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));
+
+.itemFilled-2Fo7lr[aria-checked=true] {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
+
 .itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
-  background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
+
 .card-2guEcY:not(.outline-3kFzf8) {
-  background-color: var(--backgroundTransparency);
-  border-color: transparent;
+	background-color: var(--backgroundTransparency);
+	border-color: transparent;
 }
+
 .lookOutlined-3RTC7c.colorBrand-2M3O3N {
-  background-color: var(--backgroundTransparency);
-  border: 0px;
+	background-color: var(--backgroundTransparency);
+	border: 0px;
 }
+
 .lookOutlined-3RTC7c.colorBrand-2M3O3N:hover {
-  background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));
-  background-color: transparent;
-  border: 0px;
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+	background-color: transparent;
+	border: 0px;
 }
 
 /* Authorised Apps */
-.card-2guEcY:not(.outline-3kFzf8), .cardPrimary-pAe8Ed.outline-3kFzf8 {
-  background-color: var(--backgroundTransparency);
-  border-color: transparent;
+.card-2guEcY:not(.outline-3kFzf8),
+.cardPrimary-pAe8Ed.outline-3kFzf8 {
+	background-color: var(--backgroundTransparency);
+	border-color: transparent;
 }
 
 /* Devices */
 .sessionIcon-2fwSzb {
-  background-color: var(--backgroundTransparency);
-  color: rgba(255, 255, 255, 0.5)
+	background-color: var(--backgroundTransparency);
+	color: rgba(255, 255, 255, 0.5)
 }
-.root-g14mjS, .footer-31IekZ {
-  background-color: var(--backgroundColor);
-  border-color: transparent;
+
+.root-g14mjS,
+.footer-31IekZ {
+	background-color: var(--backgroundColor);
+	border-color: transparent;
 }
 
 /* Connections */
-.connectContainer-1hylYM, .connection-YOVI9j, .metadataContainer-35U-On, .integration-1qC-fv, .container-QlmnKJ, .accountButtonInner-33vCDY, .accountBtnInner-1DCgBm {
-  background-color: var(--backgroundTransparency);
+.connectContainer-1hylYM,
+.connection-YOVI9j,
+.metadataContainer-35U-On,
+.integration-1qC-fv,
+.container-QlmnKJ,
+.accountButtonInner-33vCDY,
+.accountBtnInner-1DCgBm {
+	background-color: var(--backgroundTransparency);
 }
+
 .connectionHeader-Ixbb1s {
-  background-color: transparent;
-  border-bottom: 1px solid var(--backgroundTransparency);
+	background-color: transparent;
+	border-bottom: 1px solid var(--backgroundTransparency);
 }
-.accountButtonInner-33vCDY:hover, .accountBtnInner-1DCgBm:hover {
-  background-color: var(--uiGradient1);
+
+.accountButtonInner-33vCDY:hover,
+.accountBtnInner-1DCgBm:hover {
+	background-color: var(--uiGradient1);
 }
 
 /* Nitro */
 .theme-dark .feature-2IUcBI {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
 
 /* Server Boost */
-.guildHeader-1EPPBS,.guildSubscriptionSlots-1i_C21, .menu-1QACrS {
-  background-color: var(--backgroundTransparency);
+.guildHeader-1EPPBS,
+.guildSubscriptionSlots-1i_C21,
+.menu-1QACrS {
+	background-color: var(--backgroundTransparency);
 }
+
 .guildSubscriptionSlot-1mef6n {
-  border-bottom: 1px solid var(--background);
+	border-bottom: 1px solid var(--background);
 }
+
 .cardWrapper-1bSePP {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
 
 /* Subscriptions */
 .detailsBlock-24pLFz {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
+
 .popout-15UxD6 {
-  background-color: var(--backgroundColor);
+	background-color: var(--backgroundColor);
 }
+
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
-  background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
 /* Gift Inventory */
-.promotionCard-mo7ClH, .copyInput-3AbKWB {
-  background-color: var(--backgroundTransparency);
+.promotionCard-mo7ClH,
+.copyInput-3AbKWB {
+	background-color: var(--backgroundTransparency);
 }
 
 /* Billing */
-.theme-dark .paymentPane-ut5qKZ, .theme-dark .payment-2bOh4k:hover, .theme-dark .expandedInfo-1W31i3 {
-  background-color: var(--backgroundTransparency);
+.theme-dark .paymentPane-ut5qKZ,
+.theme-dark .payment-2bOh4k:hover,
+.theme-dark .expandedInfo-1W31i3 {
+	background-color: var(--backgroundTransparency);
 }
-.theme-dark .paginator-1eqD2g, .theme-dark .payment-2bOh4k {
-  background-color: transparent;
+
+.theme-dark .paginator-1eqD2g,
+.theme-dark .payment-2bOh4k {
+	background-color: transparent;
 }
-.theme-dark .bottomDivider-ZmTm-j, .pageButtonNext-2_bbdk.disabled-29cfPA, .pageButtonPrev-3q9rh8.disabled-29cfPA, .pageIndicator-cOEPV8 {
-  border-color: var(--backgroundTransparency);
-  color: white;
+
+.theme-dark .bottomDivider-ZmTm-j,
+.pageButtonNext-2_bbdk.disabled-29cfPA,
+.pageButtonPrev-3q9rh8.disabled-29cfPA,
+.pageIndicator-cOEPV8 {
+	border-color: var(--backgroundTransparency);
+	color: white;
 }
+
 .content-2eQb8J {
-  background-color: var(--backgroundColor);
+	background-color: var(--backgroundColor);
 }
+
 .cardInput-33x7OF {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
 
 /* Appearance */
 .darkIcon-e6uv7V:nth-last-child(1) {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
-.theme-dark .bar-2H7Q9u, .theme-dark .markDash-1ATsxA {
-  background-color: var(--backgroundTransparency);
+
+.theme-dark .bar-2H7Q9u,
+.theme-dark .markDash-1ATsxA {
+	background-color: var(--backgroundTransparency);
 }
+
 .barFill-3RgCsY {
-  background-image: linear-gradient(to top right,var(--uiGradient1),var(--uiGradient2));
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
 /* Accessibility */
 .previewMessage-2g_aBv {
-  background-color: var(--backgroundTransparency);
+	background-color: var(--backgroundTransparency);
 }
+
+/* Voice & Video */
+.cameraWrapper-nG8dpo,
+.backgroundOptionInner-SSz19O {
+	background-color: var(--backgroundTransparency);
+}
+
+/* Text & Images */
+
+/* Notifications */
+
+/* Keybinds */
+.key-RP8gj3 {
+	background-color: var(--backgroundTransparency);
+	border: none;
+	box-shadow: inset 0 -4px 0 var(--backgroundColor) !important;
+	-webkit-box-shadow: inset 0 -4px 0 var(--backgroundColor) !important;
+}
+
+/* Language */
+
+/* Windows Settings */
+
+/* Streamer Mode */
+
+/* Advanced */
+
+/* Activity Privacy */
+
+/* Registered Games */
+.theme-dark .notDetected-M3Ghh2 {
+	background-color: var(--backgroundTransparency);
+}
+
+/* Game Overlay */
+.option-1QI4c9 {
+	background-color: var(--backgroundTransparency);
+}
+
+.selected-18Wszc.option-1QI4c9 {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+
+.wrapper-SdcMKg {
+	border-color: var(--uiGradient1);
+}
+
+/* Better Discord */
+/* Settings */
+.bd-switch input:checked+.bd-switch-body {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+
+.bd-switch-body {
+	background-color: var(--backgroundTransparency) !important;
+}
+
+.bd-select,
+.bd-select .bd-select-options,
+.bd-number-input {
+	background-color: var(--backgroundTransparency) !important;
+	border: none;
+}
+
+/* Updates */
+.bd-button {
+	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
+}
+
+/* Plugins */
+.bd-search-wrapper {
+	background-color: var(--backgroundTransparency);
+}
+
+/* Themes */
+.bd-addon-list .bd-addon-card,
+.bd-addon-list .bd-addon-header {
+	background-color: var(--backgroundTransparency);
+}
+
+/* End BD */
+
+/* What's New */
+.root-1CAIjD,
+.footer-IubaaS {
+	background-color: var(--backgroundColor);
+}
+
+.theme-dark .rootWithShadow-2hdL2J,
+.theme-dark .footerSeparator-3U8YsT {
+	box-shadow: none;
+}
+
+/* Hypesquad */
+
+/* Logout */
