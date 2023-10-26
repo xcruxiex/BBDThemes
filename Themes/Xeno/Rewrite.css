@@ -94,12 +94,12 @@ If you enjoy using the theme, help spread the word!
 /* 1a - Background Image */
 
 /* Overlay Color */
-.appMount-2yBXZl {
+.appMount_fae9dd {
 	background-color: var(--backgroundColor) !important;
 }
 
 /* Image */
-.appMount-2yBXZl::before {
+.appMount_fae9dd::before {
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -120,31 +120,31 @@ If you enjoy using the theme, help spread the word!
 /* 1b - Background Color */
 
 /* Main Background */
-.app-2CXKsg,
-.bg-1QIAus,
-.wrapper-1_HaEi,
-.theme-dark .scroller-3X7KbA,
-.sidebar-1tnWFu,
-.privateChannels-oVe7HL,
-.theme-dark .scroller-WSmht3,
-.panels-3wFtMD,
-.chat-2ZfjoI,
-.chatContent-3KubbW,
-.theme-dark .themed-Hp1KC_,
-.theme-dark .container-YkUktl,
-.theme-dark .container-1NXEtd,
-.member-48YF_l,
-.members-3WRCEx,
+.app__00c92,
+.bg__7adbf,
+.wrapper_a7e7a8,
+.theme-dark .scroller__3d071,
+.sidebar_ded4b5,
+.privateChannels__93473,
+.theme-dark .scroller__4b984,
+.panels__58331,
+.chat__52833,
+.chatContent__5dca8,
+.theme-dark .themed_b152d4,
+.theme-dark .container_ca50b9,
+.theme-dark .container__590e2,
+.member_b44d5d,
+.members__9f47b,
 .container-3wLKDe,
-.container-2o3qEW {
+.container_b2ce9c {
 	background: transparent;
 }
 
 /* 1c - Settings Background */
 
 /* Background Image */
-.contentRegionScroller-2_GT_N::before,
-.sidebarRegionScroller-FXiQOh::before {
+.contentRegionScroller__86c79::before,
+.sidebarRegionScroller__1fa7e::before {
 	content: "";
 	width: 100%;
 	height: 160%;
@@ -163,11 +163,11 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Background Color */
-.layer-86YKbF,
-.standardSidebarView-E9Pc3j,
-.sidebarRegionScroller-FXiQOh,
-.contentRegion-3HkfJJ,
-.contentRegionScroller-2_GT_N {
+.layer_e552e0,
+.standardSidebarView__1129a,
+.sidebarRegionScroller__1fa7e,
+.contentRegion__0bec1,
+.contentRegionScroller__86c79 {
 	background: transparent !important;
 }
 
@@ -175,16 +175,16 @@ If you enjoy using the theme, help spread the word!
 /* 2a - Sidebar */
 
 /* Setting Tabs */
-.selected-1sf9UK:not(.top-Ktfr_T .item-2GWPIy) {
+.selected__5711d:not(.top__592a7 .item__48dda) {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
-.item-2GWPIy:hover:not(.top-Ktfr_T .item-2GWPIy) {
+.item__48dda:hover:not(.top__592a7 .item__48dda) {
 	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient1));
 }
 
 /* Setting Headers */
-.header-2F5_LB {
+.header_f72511 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	filter: brightness(1.2);
@@ -192,66 +192,66 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Scroller */
-.thin-31rlnD::-webkit-scrollbar-track {
+.thin_b1c063::-webkit-scrollbar-track {
 	background-color: transparent;
 	border: 0px solid transparent;
 }
 
-.thin-31rlnD::-webkit-scrollbar-thumb {
+.thin_b1c063::-webkit-scrollbar-thumb {
 	border: 0px solid transparent;
 	border-radius: 5px;
 	background-color: var(--backgroundTransparency);
 }
 
-.thin-31rlnD::-webkit-scrollbar {
+.thin_b1c063::-webkit-scrollbar {
 	width: 5px;
 }
 
 /* 2b - Miscellaneous */
 
 /* Color Picker */
-.theme-dark .customColorPicker-C_jddW {
+.theme-dark .customColorPicker__3cb6a {
 	background-color: var(--backgroundColor);
 	border-color: var(--backgroundColor);
 }
 
-.suggestedColor-2q1U7c {
+.suggestedColor__34249 {
 	border-color: var(--backgroundColor);
 }
 
 /* Save Changes */
-.container-20TyK0 {
+.container__467eb {
 	background-color: var(--backgroundColor) !important;
 }
 
 /* Checkmarks */
-.container-1QtPKm.checked-16gMAN {
+.container__871ba.checked__6bdb0 {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
-.container-1QtPKm.default-colors {
+.container__871ba.default-colors {
 	background-color: var(--backgroundTransparency) !important;
 }
 
 /* 2c - Setting Sections (Named In-Order) */
 
 /* My Account */
-.accountProfileCard-lbN7n-,
-.background-3d_SjE {
+.accountProfileCard__22589,
+.background_b61fcc {
 	background-color: var(--backgroundTransparency);
 }
 
-.fieldList-in8WkP {
+.fieldList_aab0de {
 	background-color: transparent;
 }
 
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+.lookFilled__19298.colorPrimary__6ed40,
+.lookFilled__19298.colorBrand_b2253e {
 	background-color: var(--uiGradient1);
 }
 
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+.lookFilled__19298.colorPrimary__6ed40:hover,
+.lookFilled__19298.colorBrand_b2253e:hover {
 	background-color: var(--uiGradient2);
 }
 
@@ -264,8 +264,8 @@ If you enjoy using the theme, help spread the word!
 	border-color: var(--uiGradient2);
 }
 
-.theme-dark .bioTextArea-dDGOeC,
-.theme-light .bioTextArea-dDGOeC {
+.theme-dark .bioTextArea_a108c9,
+.theme-light .bioTextArea_a108c9 {
 	background-color: var(--backgroundTransparency);
 }
 
@@ -278,81 +278,81 @@ If you enjoy using the theme, help spread the word!
 	border-radius: 5px;
 }
 
-.lookFilled-GPyucw.select-Zz0IcO {
+.lookFilled__3dba3.select__0eb48 {
 	background-color: var(--backgroundTransparency);
 	border-color: transparent;
 }
 
-.inputDefault-Ciwd-S {
+.inputDefault__80165 {
 	background-color: var(--backgroundTransparency);
 	border-color: transparent;
 }
 
 /* Privacy & Satefy */
-.itemFilled-2Fo7lr {
+.itemFilled__373d7 {
 	background-color: var(--backgroundTransparency);
 }
 
-.itemFilled-2Fo7lr[aria-checked=true] {
+.itemFilled__373d7[aria-checked=true] {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
-.itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
+.itemFilled__373d7:hover:not([aria-checked=true]):not(.disabled_af801d) {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
-.card-2guEcY:not(.outline-3kFzf8) {
+.card__4dc22:not(.outline_cb0aed) {
 	background-color: var(--backgroundTransparency);
 	border-color: transparent;
 }
 
-.lookOutlined-3RTC7c.colorBrand-2M3O3N {
+.lookOutlined__46d54.colorBrand_b2253e {
 	background-color: var(--backgroundTransparency);
 	border: 0px;
 }
 
-.lookOutlined-3RTC7c.colorBrand-2M3O3N:hover {
+.lookOutlined__46d54.colorBrand_b2253e:hover {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 	background-color: transparent;
 	border: 0px;
 }
 
 /* Authorised Apps */
-.card-2guEcY:not(.outline-3kFzf8),
-.cardPrimary-pAe8Ed.outline-3kFzf8 {
+.card__4dc22:not(.outline_cb0aed),
+.cardPrimary_cb7a0e.outline_cb0aed {
 	background-color: var(--backgroundTransparency);
 	border-color: transparent;
 }
 
 /* Devices */
-.sessionIcon-2fwSzb {
+.sessionIcon__540be {
 	background-color: var(--backgroundTransparency);
 	color: rgba(255, 255, 255, 0.5)
 }
 
-.root-g14mjS,
+.root_a28985,
 .footer-31IekZ {
 	background-color: var(--backgroundColor);
 	border-color: transparent;
 }
 
 /* Connections */
-.connectContainer-1hylYM,
-.connection-YOVI9j,
-.metadataContainer-35U-On,
-.integration-1qC-fv,
+.connectContainer__8050b,
+.connection_fff5f6,
+.metadataContainer__7b316,
+.integration_d2f026,
 .container-QlmnKJ,
-.accountButtonInner-33vCDY,
+.accountButtonInner__80e3a,
 .accountBtnInner-1DCgBm {
 	background-color: var(--backgroundTransparency);
 }
 
-.connectionHeader-Ixbb1s {
+.connectionHeader__3c82d {
 	background-color: transparent;
 	border-bottom: 1px solid var(--backgroundTransparency);
 }
 
-.accountButtonInner-33vCDY:hover,
+.accountButtonInner__80e3a:hover,
 .accountBtnInner-1DCgBm:hover {
 	background-color: var(--uiGradient1);
 }
@@ -363,55 +363,55 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Server Boost */
-.guildHeader-1EPPBS,
-.guildSubscriptionSlots-1i_C21,
-.menu-1QACrS {
+.guildHeader__30707,
+.guildSubscriptionSlots__5823d,
+.menu_dc52c6 {
 	background-color: var(--backgroundTransparency);
 }
 
-.guildSubscriptionSlot-1mef6n {
+.guildSubscriptionSlot_b76fc6 {
 	border-bottom: 1px solid var(--background);
 }
 
-.cardWrapper-1bSePP {
+.cardWrapper_bc8d2a {
 	background-color: var(--backgroundTransparency);
 }
 
 /* Subscriptions */
-.detailsBlock-24pLFz {
+.detailsBlock__1191c {
 	background-color: var(--backgroundTransparency);
 }
 
-.popout-15UxD6 {
+.popout_a6e77f {
 	background-color: var(--backgroundColor);
 }
 
-.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+.option_be8b2e[aria-selected=true]:not(.option_be8b2e.multi__8d15f) {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
 /* Gift Inventory */
-.promotionCard-mo7ClH,
-.copyInput-3AbKWB {
+.promotionCard__8581c,
+.copyInput_c1c679 {
 	background-color: var(--backgroundTransparency);
 }
 
 /* Billing */
-.theme-dark .paymentPane-ut5qKZ,
-.theme-dark .payment-2bOh4k:hover,
-.theme-dark .expandedInfo-1W31i3 {
+.theme-dark .paymentPane__9cf01,
+.theme-dark .payment__7d702:hover,
+.theme-dark .expandedInfo__47bad {
 	background-color: var(--backgroundTransparency);
 }
 
-.theme-dark .paginator-1eqD2g,
-.theme-dark .payment-2bOh4k {
+.theme-dark .paginator_e620d3,
+.theme-dark .payment__7d702 {
 	background-color: transparent;
 }
 
-.theme-dark .bottomDivider-ZmTm-j,
-.pageButtonNext-2_bbdk.disabled-29cfPA,
-.pageButtonPrev-3q9rh8.disabled-29cfPA,
-.pageIndicator-cOEPV8 {
+.theme-dark .bottomDivider_a59d97,
+.pageButtonNext_b6c1ca.disabled__238bc,
+.pageButtonPrev__9ee28.disabled__238bc,
+.pageIndicator__973ca {
 	border-color: var(--backgroundTransparency);
 	color: white;
 }
@@ -425,27 +425,27 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Appearance */
-.darkIcon-e6uv7V:nth-last-child(1) {
+.darkIcon__1846a:nth-last-child(1) {
 	background-color: var(--backgroundTransparency);
 }
 
-.theme-dark .bar-2H7Q9u,
-.theme-dark .markDash-1ATsxA {
+.theme-dark .bar_e58961,
+.theme-dark .markDash_dc3ae9 {
 	background-color: var(--backgroundTransparency);
 }
 
-.barFill-3RgCsY {
+.barFill__30e17 {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
 /* Accessibility */
-.previewMessage-2g_aBv {
+.previewMessage__1075c {
 	background-color: var(--backgroundTransparency);
 }
 
 /* Voice & Video */
-.cameraWrapper-nG8dpo,
-.backgroundOptionInner-SSz19O {
+.cameraWrapper__1ee6d,
+.backgroundOptionInner__1477f {
 	background-color: var(--backgroundTransparency);
 }
 
@@ -454,7 +454,7 @@ If you enjoy using the theme, help spread the word!
 /* Notifications */
 
 /* Keybinds */
-.key-RP8gj3 {
+.key__06fe6 {
 	background-color: var(--backgroundTransparency);
 	border: none;
 	box-shadow: inset 0 -4px 0 var(--backgroundColor) !important;
@@ -472,20 +472,20 @@ If you enjoy using the theme, help spread the word!
 /* Activity Privacy */
 
 /* Registered Games */
-.theme-dark .notDetected-M3Ghh2 {
+.theme-dark .notDetected__2a0c9 {
 	background-color: var(--backgroundTransparency);
 }
 
 /* Game Overlay */
-.option-1QI4c9 {
+.option_a0c054 {
 	background-color: var(--backgroundTransparency);
 }
 
-.selected-18Wszc.option-1QI4c9 {
+.selected_ea51d6.option_a0c054 {
 	background-image: linear-gradient(to top right, var(--uiGradient1), var(--uiGradient2));
 }
 
-.wrapper-SdcMKg {
+.wrapper__4beb8 {
 	border-color: var(--uiGradient1);
 }
 
@@ -525,13 +525,13 @@ If you enjoy using the theme, help spread the word!
 /* End BD */
 
 /* What's New */
-.root-1CAIjD,
-.footer-IubaaS {
+.root_a28985,
+.footer__89240 {
 	background-color: var(--backgroundColor);
 }
 
-.theme-dark .rootWithShadow-2hdL2J,
-.theme-dark .footerSeparator-3U8YsT {
+.theme-dark .rootWithShadow__073a7,
+.theme-dark .footerSeparator__57d95 {
 	box-shadow: none;
 }
 
@@ -543,46 +543,46 @@ If you enjoy using the theme, help spread the word!
 /* 3a - Background */
 
 /* background */
-.container-2cd8Mz,
-.nowPlayingColumn-1eCBCN,
-.container-1oAagU {
+.container__5c7e7,
+.nowPlayingColumn_f5023f,
+.container__0a6a9 {
 	background-color: transparent;
 }
 
-.scroller-hE2gWq {
+.scroller__00e7e {
 	border: none;
 }
 
 /* Scroller */
-.auto-2TJ1RH::-webkit-scrollbar-track {
+.auto_a48086::-webkit-scrollbar-track {
 	background-color: transparent;
 	border: 0px solid transparent;
 }
 
-.auto-2TJ1RH::-webkit-scrollbar-thumb {
+.auto_a48086::-webkit-scrollbar-thumb {
 	border: 0px solid transparent;
 	border-radius: 5px;
 	background-color: var(--backgroundTransparency);
 }
 
-.auto-2TJ1RH::-webkit-scrollbar {
+.auto_a48086::-webkit-scrollbar {
 	width: 5px;
 }
 
 /* Search Bar */
-.searchBar-2aylmZ {
+.searchBar_ff8800 {
 	background-color: var(--backgroundTransparency);
 }
 
 /* weird shadow thing ???????? */
-.theme-dark .children-3xh0VB:after {
+.theme-dark .children__32014:after {
 	display: none;
 }
 
 /* 3b - Grid */
 
 /* Friends List */
-.peopleListItem-u6dGxF {
+.peopleListItem_d14722 {
 	position: relative;
 	display: inline-grid;
 	height: 175px !important;
@@ -595,19 +595,19 @@ If you enjoy using the theme, help spread the word!
 	transition: 250ms ease all, 350ms ease background-color;
 }
 
-.peopleListItem-u6dGxF:hover {
+.peopleListItem_d14722:hover {
 	transform: scale(1.05);
 	background-color: transparent;
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 	border-radius: 5px;
 }
 
-.peopleListItem-u6dGxF:active {
+.peopleListItem_d14722:active {
 	transform: scale(0.95);
 }
 
 /* Name */
-.discordTag-3HiQI9 {
+.discordTag_e6cb79 {
 	position: absolute;
 	display: block;
 	top: 30px;
@@ -619,7 +619,7 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Discriminator #number */
-.discriminator-WV5K5s {
+.discriminator_aef524 {
 	visibility: visible !important;
 	position: absolute;
 	top: 15px;
@@ -630,20 +630,20 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Avatar */
-.avatar-2MSPKk.wrapper-3Un6-K {
+.avatar__8986c.wrapper_edb6e0 {
 	margin-bottom: 85px;
 	margin-left: 15px !important;
 }
 
 /* action buttons */
-.actions-YHvpIT {
+.actions_c08157 {
 	position: absolute;
 	left: 69%;
 	top: 26px;
 }
 
 /* Status position */
-.text-MPIeXO {
+.text__1dddb {
 	position: absolute;
 	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient2));
 	width: 100%;
@@ -658,13 +658,13 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Status position if activity */
-.icon-Lupfh-,
-.customStatusEmoji-3UDRIW {
+.icon_d942d4,
+.customStatusEmoji__59ba0 {
 	padding-left: 94%;
 }
 
 /* Activity Icon */
-.activity-1KqKY2 {
+.activity__24558 {
 	position: absolute;
 	width: 100%;
 	padding-left: 0px;
@@ -673,29 +673,29 @@ If you enjoy using the theme, help spread the word!
 }
 
 /* Message Button */
-.actionButton-3-B2x-,
-.actionButton-3-B2x-.highlight-3DSi7b {
+.actionButton__23182,
+.actionButton__23182.highlight__5b64b {
 	background-color: transparent;
 }
 
-.actionButton-3-B2x-:hover {
+.actionButton__23182:hover {
 	background-image: linear-gradient(to top right, var(--uiGradient2), var(--uiGradient2));
 }
 
 /* 3c - Active now */
 
 /* Boxes */
-.wrapper-2RrXDg {
+.wrapper__6e669 {
 	background-color: var(--backgroundTransparency);
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 	border: none;
 }
 
-.wrapper-2RrXDg:hover {
+.wrapper__6e669:hover {
 	background-color: var(--backgroundTransparency);
 }
 
-.theme-dark .inset-SbsSFp,
-.section-3G9aLW {
+.theme-dark .inset__0bfb3,
+.section_efc22d {
 	background-color: transparent;
 }
